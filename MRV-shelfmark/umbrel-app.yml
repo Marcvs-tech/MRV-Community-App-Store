@@ -2,7 +2,7 @@ manifestVersion: 1
 id: MRV-shelfmark
 name: shelfmark
 tagline: Shelfmark books
-icon: https://svgur.com/i/mvA.svg
+icon: https://github.com/calibrain/shelfmark/blob/main/src/frontend/public/logo.png
 category: Development
 version: "1.0.1"
 port: 8084
