@@ -1,7 +1,7 @@
 manifestVersion: 1
-id: MRV-Shelfmark
-name: Shelfmark
-tagline: Replace this tagline with your app's tagline
+id: MRV-shelfmark
+name: shelfmark
+tagline: Shelfmark books
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "1.0.0"
