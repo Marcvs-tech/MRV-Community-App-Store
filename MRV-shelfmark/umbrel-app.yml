@@ -1,10 +1,10 @@
 manifestVersion: 1
 id: MRV-shelfmark
 name: shelfmark
-tagline: Shelfmark books
+tagline: Formerly Calibre Web Automated Book Downloader (CWABD)
 icon: https://github.com/calibrain/shelfmark/blob/main/src/frontend/public/logo.png
 category: Development
-version: "1.0.1"
+version: "1.0.2"
 port: 8084
 description: >-
   Add your app's description here.
