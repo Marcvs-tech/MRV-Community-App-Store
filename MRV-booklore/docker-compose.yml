@@ -23,7 +23,7 @@ services:
       - ${APP_DATA_DIR}/data/books:/books
 
   db:
-    image: mariadb:12.0.2@sha256:b30cc65b57a11a2e791ad5c06284e599fe9f1bf3fe9081a88d85bcf36389be4a
+    image: ghcr.io/booklore-app/booklore:latest
     user: "1000:1000"
     restart: on-failure
     environment:
