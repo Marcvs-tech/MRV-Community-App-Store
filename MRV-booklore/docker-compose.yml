@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: mrv-booklore_web_1
+      APP_HOST: mrv-booklore_server_1
       APP_PORT: 6060
       
   web:
@@ -12,7 +12,7 @@ services:
     #user: "1000:1000"
     restart: on-failure
     environment:
-      DATABASE_URL: jdbc:mariadb://booklore_db_1:3306/booklore
+      DATABASE_URL: ghcr.io/booklore-app/booklore:latest
       DATABASE_USERNAME: bookloreuser
       DATABASE_PASSWORD: booklorepass
     depends_on:
